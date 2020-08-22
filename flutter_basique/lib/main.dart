@@ -47,7 +47,16 @@ class _Home extends State<Home> {
         elevation: 10.0,
         centerTitle: true,
       ),
-      backgroundColor: Colors.teal,
+      body: new Container(
+        color: Colors.blue,
+
+        margin: EdgeInsets.only(top: 20.0, bottom: 15.0),
+        child: new Center(
+          child: new Text(
+            'Apprentissage des widgets'
+          ),
+        ),
+      ),
     );
   }
 
